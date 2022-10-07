@@ -1,0 +1,42 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: -webkit-radial-gradient(50% 16%, circle, #219eb0 32%, #3f679d 88%);
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+}
+
+.time {
+    color: #fff;
+    font-size: 10rem;
+}
+
+.btn {
+    cursor: pointer;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    border: 0;
+    color: #3f679d;
+    font-size: 1em;
+    font-weight: 600;
+}
